@@ -112,7 +112,7 @@ if (error === "Invalid email or password") {
             </div>
           </Col>{" "}
           <Col md={6}>
-            <img src={image} alt="farming" className="Login__image" />
+            <img src={image2} alt="farming" className="Login__image" />
           </Col>
         </Row>
       </Card>

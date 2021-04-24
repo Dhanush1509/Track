@@ -74,7 +74,7 @@ setAlert("Passwords did not match","white","red")
         <Card className="mt-3 Register__card">
           <Row>
             <Col md={6}>
-              <img src={image} alt="farming" className="Register__image" />
+              <img src={image} alt="farming" className="Register__image"/>
             </Col>
             <Col md={6}>
               <div
