@@ -76,7 +76,7 @@ export default function MenuAppBar() {
                 className={classes.title}
               
               >
-                TechnoKids
+                Track
               </Typography>
             </LinkContainer>
             {userInfo && userInfo.length > 0 ? (
