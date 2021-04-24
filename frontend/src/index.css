@@ -1,0 +1,71 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+.Main__h1{
+    font-size:5vw;
+    margin-top:5vh;
+}
+.Main__h3{
+    font-size:2vw;
+}
+.Main__image{
+    width: 50%; 
+    height: auto; 
+    object-fit: cover 
+}
+.Login__card{
+margin-right:10vw;
+margin-left:10vw;
+}
+.Login__image{
+width: 100%;
+  height: 80vh;
+  border-top-right-radius: 2vw;
+  border-bottom-right-radius: 2vw
+}
+.Register__card{
+margin-right:10vw;
+margin-left:10vw;
+}
+.Register__image{
+  width: 100%;
+  height: 85vh;
+  border-top-left-radius: 2vw;
+  border-bottom-left-radius: 2vw
+}
+.Main__Row{
+  margin-left: 5vw;  
+  margin-right: 5vw;
+}
+.Profile__Card{
+margin-left :20vw;
+margin-right:20vw;
+margin-top: 10vh;
+padding:20px;
+}
+.Profile__Table{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 720px) {
+.Main__h1{
+    font-size:9vw;
+}
+.Main__h3{
+    font-size:5vw;
+}
+.Register__image {
+    display: none;
+  }
+
+  .Login__image {
+    display: none;
+  }
+  .Profile__Card{
+margin-left :0;
+margin-right:0;
+margin-top: 10vh;
+margin-bottom:0;
+padding:0;
+}
+}
